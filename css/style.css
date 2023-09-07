@@ -1,4 +1,4 @@
-a {
+nav a {
     color: crimson;
     text-decoration: none;
     
@@ -31,17 +31,20 @@ a {
     color: #eaeaea;
 }
 
-p span {
+.users span {
     font-style: italic;
 }
 
-span :last-child {
+.users span :last-child {
     color: crimson;
 }
 
-.creators a {
-    font-family: 'PT Serif', sans-serif;
-    font-weight: bold;
+.creators .link {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+}
+.creators .link.font {
+    font-family: 'PT Serif', serif;
 }
 
 .cta h2 {
@@ -49,6 +52,6 @@ span :last-child {
     font-family: 'Lato', sans-serif;
 }
 
-li:nth-child(odd) {
+ul li:nth-child(odd) {
     text-decoration: underline;
 }
