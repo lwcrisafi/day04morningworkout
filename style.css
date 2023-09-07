@@ -1,0 +1,31 @@
+a {
+    color: crimson;
+    text-decoration: none;
+    
+    
+}
+.about {
+    color: #eaeaea;
+}
+
+p span {
+    font-style: italic;
+}
+
+span :last-child {
+    color: crimson;
+}
+
+.creators a {
+    font-family: 'PT Serif', sans-serif;
+    font-weight: bold;
+}
+
+.cta h2 {
+    color: crimson;
+    font-family: 'Lato', sans-serif;
+}
+
+li:nth-child(odd) {
+    text-decoration: underline;
+}
